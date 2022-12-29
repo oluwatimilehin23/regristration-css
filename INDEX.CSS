@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+    margin-left: 420px;
+}
+form{
+    width: 400px;
+    height:700px;
+    background: aqua;
+    margin-left:200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+}
+input[type=name],input[type=fathername],input[type=postaladdress],input[type=personaladdress],input[type=sex],input[type=pinCode],
+input[type=emailId],input[type=DOB],input[type=Mobile],select,input[type=sex],select,input[type=city],select,input[type=course],
+select,input[type=destrict]{
+    width: 60%;
+    border-radius: 6px;
+    border: none;
+    padding: 4px; 
+}
+button{
+    margin-top: 12px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+}
